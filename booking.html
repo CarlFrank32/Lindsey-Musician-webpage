@@ -5,6 +5,7 @@
         <title>Lindsey Adams</title>
         <link rel="stylesheet" href="CSS\stlye.css" />
         <link href='https://fonts.googleapis.com/css?family=Monsieur La Doulaise' rel='stylesheet'>
+        <link rel="stylesheet" href="CSS\booking.css" />
     <style>
     header {
         font-family: 'Monsieur La Doulaise';
@@ -28,23 +29,34 @@
         <a href= "booking.html">Booking</a>
     </div>
     <form>
-        <fieldset>
+        <fieldset class="center">
             <legend>Booking Form</legend>
-            Full Name: <input name="fullName" type="text" required="required" placeholder="Enter your name"/>
-            Email Address: <input name="emailAddress" type="email" require="required" placeholder="Enter your email"/>
+            Full Name:
+            <br> 
+            <input name="fullName" type="text" required="required" placeholder="Enter your name"/>
+            <br>
+            Email Address:
+            <br> 
+            <input name="emailAddress" type="email" require="required" placeholder="Enter your email"/>
+            <br>
             <label for="inquiry">What are you inquiring about?</label>
+            <br>
             <select id="inquiry" name="inquiry">
                 <option value="solo">Solo Booking</option>
                 <option value="lessons">Private Lessons</option>
                 <option value="wedding">Wedding Ceremony</option>
                 <option value="director">Music Director</option>
+                <option value="recital">Recital</option>
+                <option value="accompanist">Accompanist</option>
                 <option value="other">Other</option>
             </select>
-            <input type="submit">
+            <br>
             <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="10" cols="50">
-                Type your message here.
+            <br>
+            <textarea class="center" id="message" name="message" rows="20" cols="50" placeholder="Type your message here...">
             </textarea>
+            <br>
+            <input type="submit">
         </fieldset>
     </form>
     </body>
