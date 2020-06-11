@@ -32,7 +32,7 @@ body {
 .navbar a {
     float: left;
     padding: 12px;
-    text-decoration-color: #987D7C;
+    color: #36454F;
     text-decoration: none;
     font-size: 17px;
     width: 23%;
@@ -40,7 +40,7 @@ body {
 }
 
 .navbar a:hover {
-    text-decoration-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 @media screen and (max-width: 500px) {
@@ -68,7 +68,7 @@ body {
 }
 
 .footer a:hover {
-    text-decoration-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 @media screen and (max-width: 500px) {
