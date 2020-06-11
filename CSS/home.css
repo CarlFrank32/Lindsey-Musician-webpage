@@ -20,8 +20,19 @@
     }
 }
 
+.bio {
+    color: #776D5A;
+    margin-top: 125px;
+    padding: 15px;
+}
+
 img {
+    padding: 15px;
     width: 100%;
     height: auto;
     border-radius: 50%;
+}
+
+figcaption {
+    color: #776D5A;
 }

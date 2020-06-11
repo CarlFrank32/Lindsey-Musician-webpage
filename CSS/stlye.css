@@ -10,6 +10,7 @@ body {
 .navbar a {
     float: left;
     padding: 12px;
+    text-decoration-color: #987D7C;
     text-decoration: none;
     font-size: 17px;
     width: 23%;
@@ -17,7 +18,7 @@ body {
 }
 
 .navbar a:hover {
-    text-decoration-color: #47145c;
+    text-decoration-color: #FFFFFF;
 }
 
 @media screen and (max-width: 500px) {
