@@ -67,6 +67,11 @@ body {
     text-align: center;
 }
 
+.footer a {
+    text-decoration: none;
+    color: #36454F;
+}
+
 .footer a:hover {
     color: #FFFFFF;
 }
