@@ -14,6 +14,7 @@ ul {
 li {
     float: left;
     width: 33%;
+    margin-top: none;
     list-style: none;
     font-size: 35px;
     text-align: center;
