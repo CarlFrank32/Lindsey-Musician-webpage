@@ -1,6 +1,9 @@
+body {
+    background-color: #ABDAE1;
+}
 .navbar {
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: #ABDAE1;
     overflow: auto;
 }
 
