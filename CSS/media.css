@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    margin: 0;
+    margin: auto 0;
 }
 .column {
     float: left;

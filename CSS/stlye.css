@@ -113,3 +113,10 @@ body {
     height: 75%;
     width: 75%;
 }
+.column a {
+    text-decoration: none;
+    color: #36454F;
+}
+.column a:hover {
+    color: #FFFFFF;
+}
