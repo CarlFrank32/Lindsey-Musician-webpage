@@ -2,7 +2,7 @@ h2 {
     font-size: 75px;
     word-spacing: 40px;
     text-align: center;
-    text-decoration-color: #C2B280;
+    color: #36454F;
     margin-bottom: 0px;
     margin-top: 0px;
 }
@@ -13,6 +13,7 @@ ul {
 
 li {
     float: left;
+    color: #36454F;
     width: 33%;
     margin-top: none;
     list-style: none;
@@ -44,6 +45,34 @@ body {
 
 @media screen and (max-width: 500px) {
     .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+.footer {
+    width: 100%;
+    background-color: #A09CB0;
+    overflow: auto 0;
+}
+
+.footer li {
+    float: left;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 12px;
+    width: 23%;
+    text-align: center;
+}
+
+.footer a:hover {
+    text-decoration-color: #FFFFFF;
+}
+
+@media screen and (max-width: 500px) {
+    .footer a {
         float: none;
         display: block;
         width: 100%;
