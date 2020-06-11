@@ -5,6 +5,7 @@
         <title>Lindsey Adams</title>
         <link rel="stylesheet" href="CSS\stlye.css" />
         <link href='https://fonts.googleapis.com/css?family=Monsieur La Doulaise' rel='stylesheet'>
+        <link rel="stylesheet" href="CSS/media.css" />
         <style>
         header {
             font-family: 'Monsieur La Doulaise';
@@ -28,6 +29,39 @@
         <a href= "booking.html">Booking</a>
         </ul>
     </div>
+    <div style="text-align:center">
+        <h3>Media</h3>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="images/Orpheo.jpg" alt="Orpheo" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/Kolbybarn.jpg" alt="Performance at Kolby Barn" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/Suchsweetmelodie.jpg" alt="Such Sweete Melodie" style="width:100%" onclick="myFunction(this);">
+        </div> 
+        <div class="column">
+            <img src="images/recording.jpg" alt="Live on WFMT" style="width:100%" onclick="myFunction(this);">
+        </div>   
+    </div>
+
+    <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+    </div>
+
+    <script>
+    function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = "block";
+    }
+    </script>
     <br>
     <hr style="width:75%; text-align: center; text-decoration-color: #36454F;">
     <footer class="footer">
